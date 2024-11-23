@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <style>
+    /* General Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body and Basic Layout */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+/* Container for sections */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about{
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e0e0e0;
+    padding: 40px 0;
+}
+
+    #skills h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    #skills ul {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style-type: none;
+    }
+    
+    #skills li {
+        font-size: 1.2rem;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Projects Section */
+    #projects {
+        background-color: #fff;
+        padding: 40px 0;
+    }    
+
+    #projects h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .project {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .project img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .project h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .project p {
+        font-size: 1.1rem;
+    }
+    
+    /*Contact Section */
+    #contact {
+        background-color: #e0e0e0;
+        padding: 40px 0;
+        text-align: center;
+    }
+    
+    #contact h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    #contact a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    /* Footer Styling */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    footer p {
+        font-size: 1rem;
+    }
+    </style>
+    <title>Kukutla Sriharshitha - Portfolio</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Sriharshitha Kukutla</h1>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="C:\Users\R.R.4.7.22\Downloads\my_image.jpg" alt="Your Image">
+            <p>Computer Science graduate skillled
+                in programming, web development and 
+                machine learning with hands-on experience
+                 from internshipsnand projects. Seeking to
+                  apply technical skills and adaptability to
+               contribute to impactful projects in a dynamic environment.</p>
+        </div>
+    </section>
+
+    <section id="education" class="about-me-section">
+        <div class="container">
+            <center><h2 class="text-3xl font-bold mb-4">Education</h2></center><br>
+           <strong><p>2021 - 2024 : B.Tech ( Computer Science and Engineering )
+            Sri indu College of Engineering and Technology,
+            Sheriguda, Ranga Reddy, Telangana</p>
+            <p>2018 - 2021 : Diploma ( Computer Science and Engineering )
+                TRR College of Technology ( Polytechnic ), 
+                Meerpet, Ranga Reddy, Telangana</p>
+            <p>2016 - 2018 : SSC ( Board of Secoundary Education )
+                Gautami Talent School,
+                 Meerpet, Ranga Reddy, Telangana</p>
+            <p>2007 - 2016 : Sri Sai Grammar High School,
+                 Aliyabad, Hyderabad, Telangana</p></strong>
+        </div>
+    </section>
+
+    <section id="languages-known" class="about-me-section">
+        <div class="container">
+            <center><h2 class="text-3xl font-bold mb-4">Languages Known</h2></center><br>
+            <center><strong><p><p> 1 : English</p></center>
+                    <center><p>2 : Hindi  </p></center>
+                        <center><p> 3 : Telugu</p></p></strong></center>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><b>Programming Language : </b>Python, Java, C++, C </li>
+                <li><b>Web Technologies : </b>HTML, CSS, JavaScript </li>
+                <li><b>Database Systems : </b>MySQL </li>
+                <li><b>Soft Skills : </b>Communication, Problem-Solving, Team Collaboration, Adaptibility </li>
+                <li><b>Operating Systems : </b>Windows, MacOs </li>
+                <li><b>IDEs : </b>Visual Studio, Eclipse, Pycharm </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Encryption Solution Using Parity-Based Disturbance
+
+                Tools & Technologies: [Python, Cryptography Libraries, Binary Manipulation Algorithms
+                
+                June 2021-June 2024 Hyderabad, India
+                
+                March 2021 Hyderabad, India
+                
+                April 2018 Hyderabad, India
+                
+                Designed and implemented a data encryption method that enhances security by applying 
+                parity-based disturbance, creating a controlled disruption to binary patterns while 
+                maintaining data integrity, Evaluated the encryption model's resilience and computational 
+                efficiency against unauthorized access, ensuring robust protection in high-sensitivity 
+                data environments.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Artificial Neural Network Approaches for Lung Cancer Identification Tools & Technologies: [Python, TensorFlow/Keras, Scikit-Learn, Pandas, Numpyl
+
+                Developed and trained artificial neural network models for early-stage lung cancer identification, utilizing medical imaging data for high-accuracy detection.
+                
+                Applied data preprocessing, feature extraction, and model optimization techniques to enhance prediction accuracy and reduce false-positive rates.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:youremail@example.com">kukutlasriharshitha1245@gmail.com</a></p>
+            <p>Phone: (+91)6305093124</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sriharshitha Kukutla. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
